@@ -7,4 +7,5 @@
 Запуск: node main.js
 
 Шаблон вводится в файл substring.txt
+
 Текст для поиска в файл input.txt
