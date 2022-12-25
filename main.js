@@ -62,8 +62,8 @@ for (let i = 1; i < raw_template.length; i++) {
     findstr = raw_template.substr(raw_template.length - i, i);
 
     for (indx = 1; indx <= raw_template.length; indx++) {
-        if (is_same(raw_template.substr(raw_template.length - i, i), template.substr(template.length - i - indx, i))) {
-            if (raw_template.charAt(raw_template.length - i - 1) != template.charAt(template.length - i - indx - 1)) {
+        if (raw_template.charAt(raw_template.length - i - 1) != template.charAt(template.length - i - indx - 1)) {
+            if (is_same(raw_template.substr(raw_template.length - i, i), template.substr(template.length - i - indx, i))) {
                 break;
             }
         }
