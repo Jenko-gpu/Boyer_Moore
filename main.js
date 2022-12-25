@@ -17,7 +17,7 @@ function is_same(x, y) {
     }
     return true;
 }
-var space_fake = ' ';
+let space_fake = String.fromCharCode(0);
 let arr1 = new Array();
 let good_suff = new Array();
 
